@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  --roxo: #65088c;
+  --lilás-escuro: #551ba6;
+  --lilás: #511fbf;
+  --azul-escuro: #040240;
+  --azul-mais-escuro: #020126;
+}
+/*Navbar*/
+.navbar .navbar-expand-lg .navbar-light .bg-light .fixed-top {
+  background-color: #3b657a;
+}
+.navbar > a {
+  margin: 0;
+  font-size: 30px;
+  padding: 15px;
+}
+.navbar a img {
+  padding: 0;
+  margin-top: -3px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+}
+
+.navbar-nav .nav-item {
+  padding: 0 20px 0 20px;
+}
+.navbar .navbar-collapse form input {
+  width: 15vw;
+  margin-right: 10px;
+}
+.navbar .navbar-collapse form button {
+  width: 7vw;
+  margin-right: 15px;
+}
+
+/*Banner*/
+main section .banner {
+  margin-top: 91px;
+  height: 600px;
+  background: black url("../imagens/banner_astronauta.jpg") no-repeat fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  font-size: 50px;
+  text-shadow: 2px 2px 3px black;
+}
+main h1 {
+  text-align: center;
+  font-size: 40px;
+  margin: 20px 0 20px 0;
+}
+main {
+  background-color: #7656a2;
+  padding-bottom: 20px;
+}
+section#eventos {
+  background-color: #ffffff;
+  padding: 20px;
+  margin: auto;
+  width: 70vw;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px black;
+}
+main .coluna-evento img {
+  width: 100%;
+  height: 300px;
+  border-radius: 12px;
+  box-shadow: 2px 2px 2px black;
+  margin-bottom: 15px;
+  object-fit: cover;
+}
+main .coluna-evento button#inscricao {
+  padding: 5px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border-color: #65088c;
+  text-decoration: none;
+}
+main .coluna-evento button#inscricao a {
+  text-decoration: none;
+  color: #65088c;
+}
+main .coluna-evento button > a:hover {
+  font-size: 18px;
+  border-color: #69b5db;
+}
+
+main .coluna-evento button#informacao {
+  padding: 5px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border-color: #551ba6;
+  text-decoration: none;
+}
+main .coluna-evento button#informacao a {
+  text-decoration: none;
+  color: #551ba6;
+}
+/*Banner-2*/
+.container-fluid {
+  padding: 0;
+}
+section .banner-2 img {
+  width: 100%;
+  background: url("../imagens/bgUmentor.jpeg") no-repeat fixed;
+  background-size: cover;
+}
+footer {
+  padding-top: 11px;
+  height: 7vh;
+  background-color: #6d24d3;
+  color: white;
+  text-align: center;
+}
